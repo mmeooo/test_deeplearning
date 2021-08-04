@@ -1,9 +1,9 @@
-# deeplearning
+# Deep Learning
 
 tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
 
 
-# step
+# Step
 
 1. 정보(데이터) 단계 
    * dropna: info(), describe()
