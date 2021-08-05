@@ -2,8 +2,7 @@
 
 tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
 
-
-# Step
+### Step
 
 1. 정보(데이터) 단계 
    * dropna: info(), describe()
@@ -23,6 +22,8 @@ tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
    * receive data 
    * predict
 
+---
+
 
 ## Artificial Neural Network
 
@@ -33,6 +34,7 @@ tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
 * 논리 
   * AND, OR : `Single Layer Network` 
   * XOR (두 개의 input이 같지 않으면 true) : `Multi Layer Network`
+
 
 
 ## BackPropagation
@@ -47,6 +49,7 @@ tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
 1. 오류 계산 : 실제 출력에서 얼마나 멀리 출력되는지 계산
 2. 최소 오류 : 오류가 최소화되었는지 확인
 3. 매개 변수 조정 : 오류가 크면 매개 변수(가중치 및 편차)를 조정.
+
 
 
 ## Recurrent Neural Network
