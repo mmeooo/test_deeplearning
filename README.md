@@ -1,6 +1,8 @@
 # Deep Learning
 
-tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
+tensorflow : 머신러닝, 딥러닝 라이브러리
+keras : tensorflow 코드를 간단하게 작성할 수 있는 api제공
+(https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
 
 ---
 
