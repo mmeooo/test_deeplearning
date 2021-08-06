@@ -68,4 +68,4 @@ tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
   
   
 ## LSTM
-* RNN의 한 종류. 긴 의존 기간을 필요로 하는 학습을 수행
+* RNN의 한 종류. 긴 의존 기간(문맥)을 필요로 하는 학습을 수행
