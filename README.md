@@ -24,6 +24,33 @@ tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
 
 ---
 
+## Classification
+차원이 있는 데이터 처리
+
+* Output Layer 
+  * y_train의 unique값이 3개 이상 -> activation= 'softmax'
+  * y_train의 unique값이 2개(binary) (ex.긍정/부정) -> activation = 'sigmoid' 
+
+* Hidden Layer : activation = 'relu'
+
+* Output Layer
+  * Dense : y_train의 unique값의 개수
+  * model.add - loss
+    * 연속형 -> loss = mae (절대값) : mean(abs(y_true - y_pred), axis=-1)
+
+    * regression -> loss = mse (오차값) :  mean(square(y_true - y_pred), axis=-1)
+
+* Gadget
+  * model.compile - loss
+    * binary classification -> loss = binary_crossentropy : f.keras.metrics.binary_crossentropy( y_true, y_pred, from_logits=False, label_smoothing=0)
+
+    * over 3 classification -> loss = sparse_categorical_crossentropy : tf.keras.metrics.categorical_crossentropy( y_true, y_pred, from_logits=False, label_smoothing=0 )
+
+    * one-hot encoding 하기 싫을 때 -> loss = sparse_categorical_crossentropy : tf.keras.metrics.sparse_categorical_crossentropy( y_true, y_pred, from_logits=False, axis=-1)
+
+
+---
+
 
 ## Artificial Neural Network
 
