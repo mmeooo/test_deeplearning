@@ -84,3 +84,7 @@ tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
 * 입력과 출력을 Sequence 단위로 처리하는 모델.  시간에 따라 변화하는 데이터를 학습할 때 활용  
   * `Hidden Layer`에서 `Activation Function`를 통해 나온 결과값을 `Output Layer` 에 보내거나,   
   * 다시 `Hidden Layer` 의 다음 계산의 입력으로 보내 재귀적으로 참조. (데이터 순환)
+  -> 스스로를 반복하면서 이전 단계에서 얻은 정보를 지속시킴
+  
+## LSTM
+* RNN의 한 종류. 긴 의존 기간을 필요로 하는 학습을 수행
