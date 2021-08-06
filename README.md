@@ -2,26 +2,6 @@
 
 tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
 
-### Step
-
-1. 정보(데이터) 단계 
-   * dropna: info(), describe()
-   * fillna, replace: value_counts(), describe()
-   * 컬럼 분류: 연속형, 분류형
-   * 시각화
-   * one-hot encoding: get_dummies
-   * standard scaler 
-   * data split
-
-2. 교육 단계 
-   * model make & learning
-   * check score
-  
-3. 서비스 단계
-   * pickle: model save & load
-   * receive data 
-   * predict
-
 ---
 
 ## Classification
@@ -85,6 +65,7 @@ tensorflow: keras (https://www.tensorflow.org/api_docs/python/tf/keras?hl=ko)
   * `Hidden Layer`에서 `Activation Function`를 통해 나온 결과값을 `Output Layer` 에 보내거나,   
   * 다시 `Hidden Layer` 의 다음 계산의 입력으로 보내 재귀적으로 참조. (데이터 순환)
   -> 스스로를 반복하면서 이전 단계에서 얻은 정보를 지속시킴
+  
   
 ## LSTM
 * RNN의 한 종류. 긴 의존 기간을 필요로 하는 학습을 수행
